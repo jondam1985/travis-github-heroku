@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - stable
+deploy:
+  provider: heroku
+  api_key:
+    secure:
+      put: F+/IaFQUNAkKN+PUy+0t1Mg6fb4+Yy/kHvOTXNIDrfe1iWCdBBVYMYrYMqjkN0DF3+KcLF/CxAMPOOXTdCR/BXNrTJY4iAKGhNhexjWU3ECi+aUp3XwupsVQIFlZfJBJGT1pgC87dxh5NYkArbGdLpQ9VRvkZ+tlxXUBqCdRLYHKRcz1nt1aDrDcuau9cLMPXUvJcH+8dwThWIz6Qg0euevhpCf2jv0gQMGl0LSpVE1Arrfnt8mvX3gy6o5iMesWU4Bh8aEhtaH4xtmDdgUBztBJMlyjzGYLW0lrAm6zXlll7vN/4BXLPvVGapxoRCSJy6ki79RRSQoO6i/MvblVouEQJTdO4hT13qfnV7M3QsJ1yNQqe6rfLl+Vf6MZPDKQiKaOsXBFSj9DIaamnPQ1gxMgNtHITe1dx4c0V4aaW+M3JTU5MV5DFuT5vY5G6274AwWO2eV1v0kurg6e0WbtVaf5ylQN9fgxKId0vS33Fo8ve0SXDwHFjRcEXn88IGEcOkIoJ8DLuipsQ7hEoK7Rwpx8+B7ltrxNeG9XJcRdSYJqZUhT7FY7sBHrjlRw6yf6K1LE14U7yUAOiT0GJ10ptENT54RetTNoCGMxhMvyv3BvaXLaWM3ThOcMGQE/WUbX6xXrjzOkZK7LJSU9kEmkcdmTTwI9ixmdZ60dt6qQE4Y=
+  app:
+    name: travis-github-heroku
+  on:
+    repo: jondam1985/travis-github-heroku
